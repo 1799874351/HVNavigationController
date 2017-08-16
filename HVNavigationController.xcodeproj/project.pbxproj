@@ -14,6 +14,9 @@
 		39C3FEDC1F44250D006BB851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C3FEDB1F44250D006BB851 /* Assets.xcassets */; };
 		39C3FEDF1F44250D006BB851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3FEDD1F44250D006BB851 /* LaunchScreen.storyboard */; };
 		39C3FEE81F442576006BB851 /* UINavigationController+HVNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C3FEE71F442576006BB851 /* UINavigationController+HVNavigationController.m */; };
+		39C3FEF01F444012006BB851 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 39C3FEEB1F444012006BB851 /* .gitkeep */; };
+		39C3FEF11F444012006BB851 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 39C3FEED1F444012006BB851 /* .gitkeep */; };
+		39C3FEF21F444012006BB851 /* UINavigationController+HVNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C3FEEF1F444012006BB851 /* UINavigationController+HVNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		39C3FEE01F44250D006BB851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C3FEE61F442576006BB851 /* UINavigationController+HVNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HVNavigationController.h"; sourceTree = "<group>"; };
 		39C3FEE71F442576006BB851 /* UINavigationController+HVNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HVNavigationController.m"; sourceTree = "<group>"; };
+		39C3FEEB1F444012006BB851 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		39C3FEED1F444012006BB851 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		39C3FEEE1F444012006BB851 /* UINavigationController+HVNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HVNavigationController.h"; sourceTree = "<group>"; };
+		39C3FEEF1F444012006BB851 /* UINavigationController+HVNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HVNavigationController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 		39C3FECE1F44250D006BB851 /* HVNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				39C3FEE91F444012006BB851 /* Classes */,
 				39C3FED21F44250D006BB851 /* AppDelegate.h */,
 				39C3FED31F44250D006BB851 /* AppDelegate.m */,
 				39C3FED51F44250D006BB851 /* ViewController.h */,
@@ -82,6 +90,33 @@
 				39C3FED01F44250D006BB851 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39C3FEE91F444012006BB851 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				39C3FEEA1F444012006BB851 /* Assets */,
+				39C3FEEC1F444012006BB851 /* Classes */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		39C3FEEA1F444012006BB851 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				39C3FEEB1F444012006BB851 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		39C3FEEC1F444012006BB851 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				39C3FEED1F444012006BB851 /* .gitkeep */,
+				39C3FEEE1F444012006BB851 /* UINavigationController+HVNavigationController.h */,
+				39C3FEEF1F444012006BB851 /* UINavigationController+HVNavigationController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +179,9 @@
 			files = (
 				39C3FEDF1F44250D006BB851 /* LaunchScreen.storyboard in Resources */,
 				39C3FEDC1F44250D006BB851 /* Assets.xcassets in Resources */,
+				39C3FEF11F444012006BB851 /* .gitkeep in Resources */,
 				39C3FEDA1F44250D006BB851 /* Main.storyboard in Resources */,
+				39C3FEF01F444012006BB851 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +195,7 @@
 				39C3FED71F44250D006BB851 /* ViewController.m in Sources */,
 				39C3FEE81F442576006BB851 /* UINavigationController+HVNavigationController.m in Sources */,
 				39C3FED41F44250D006BB851 /* AppDelegate.m in Sources */,
+				39C3FEF21F444012006BB851 /* UINavigationController+HVNavigationController.m in Sources */,
 				39C3FED11F44250D006BB851 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
