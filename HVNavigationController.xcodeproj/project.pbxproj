@@ -13,6 +13,7 @@
 		39C3FEDA1F44250D006BB851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3FED81F44250D006BB851 /* Main.storyboard */; };
 		39C3FEDC1F44250D006BB851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C3FEDB1F44250D006BB851 /* Assets.xcassets */; };
 		39C3FEDF1F44250D006BB851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3FEDD1F44250D006BB851 /* LaunchScreen.storyboard */; };
+		39C3FEE81F442576006BB851 /* UINavigationController+HVNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C3FEE71F442576006BB851 /* UINavigationController+HVNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		39C3FEDB1F44250D006BB851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C3FEDE1F44250D006BB851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C3FEE01F44250D006BB851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C3FEE61F442576006BB851 /* UINavigationController+HVNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HVNavigationController.h"; sourceTree = "<group>"; };
+		39C3FEE71F442576006BB851 /* UINavigationController+HVNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HVNavigationController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				39C3FEDD1F44250D006BB851 /* LaunchScreen.storyboard */,
 				39C3FEE01F44250D006BB851 /* Info.plist */,
 				39C3FECF1F44250D006BB851 /* Supporting Files */,
+				39C3FEE61F442576006BB851 /* UINavigationController+HVNavigationController.h */,
+				39C3FEE71F442576006BB851 /* UINavigationController+HVNavigationController.m */,
 			);
 			path = HVNavigationController;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C3FED71F44250D006BB851 /* ViewController.m in Sources */,
+				39C3FEE81F442576006BB851 /* UINavigationController+HVNavigationController.m in Sources */,
 				39C3FED41F44250D006BB851 /* AppDelegate.m in Sources */,
 				39C3FED11F44250D006BB851 /* main.m in Sources */,
 			);
